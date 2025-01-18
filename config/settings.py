@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -134,3 +135,16 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+JAZZMIN_SETTINGS = {
+    "site_header": "Library",
+    "site_brand": "Fruitkha",
+    "site_logo": 'img/favicon.png',
+    'login_logo': BASE_DIR / 'staticfiles/img/favicon.png',
+    "welcome_sign": "Welcome to Fruitkha",
+    "copyright": "Ahmadjonov Azizbek",
+    "user_avatar": 'porsche.jpg',
+    'custom_css': 'css/custom.css',
+}
+
